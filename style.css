@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Outfit', sans-serif;
+  background-color:hsl(217, 54%, 11%) ;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width:250px ;
+  height: 450px;
+  margin: 100px auto;
+  padding:15px 15px;
+  background-color:hsl(216, 50%, 16%);
+  border-radius:10px;
+}
+.first-container{
+background-image: url(image-equilibrium.jpg); 
+background-repeat: no-repeat;
+width:100%;
+height:200px;
+background-size: cover;
+border-radius: 5px;
+cursor: pointer;
+}
+.image{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+
+.first-container:active{
+  background-image: url(image-equilibrium.jpg); 
+  background-repeat: no-repeat;
+  width:100%;
+  height:200px;
+  background-size: cover;
+  
+}
+
+.image:active{
+  background-color:hsl(178, 100%, 50%) ;
+  opacity: 0.7;
+  background-image: url(./images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+ 
+}
+
+
+.second-container h2{
+color: hsl(0, 0%, 100%);
+font-size: 1.1em;
+margin-top: 1em;
+font-weight: 600;
+cursor: pointer;
+transition: color 0.15s;
+}
+.second-container h2:active{
+  color:hsl(178, 100%, 50%) ;
+}
+.collection{
+  color:hsl(215, 51%, 70%);
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+.inner-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  align-items: center;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  
+}
+.box1{
+  display: flex;
+  color: hsl(178, 100%, 40%);
+  font-size: 0.8em;
+  font-weight: 600;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.box1 img{
+  width:0.65em ;
+}
+.ETH{
+  margin-left: 4px;
+}
+.box2{
+  display: flex;
+  color:hsl(215, 51%, 70%) ;
+  align-items: center;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+.box2 img{
+  width:1em ;
+}
+.days{
+  margin-left: 4px;
+}
+.third-container{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.third-container img{
+  width: 25px;
+  border-radius: 12.5px;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+.third-container p{
+  font-size: 0.8em;
+  padding-left: 10px;
+  color:hsl(215, 51%, 70%);
+  cursor: pointer;
+  transition: active (0.15s);
+}
+.name{
+color:hsl(0, 0%, 100%) ;
+}
+.name:active{
+  color:hsl(178, 100%, 50%) ;
+}
